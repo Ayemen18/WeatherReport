@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/WeatherReport/',  
+  base: prcoess.env.VITE_BASE_PATH || '/WeatherReport',  
 });
