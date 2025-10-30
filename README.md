@@ -1,16 +1,40 @@
-# React + Vite
+# 🌦️ React Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, responsive **Weather Application** built with React and Material UI that fetches real-time weather data from the **OpenWeatherMap API**.  
+Search for any city to view live temperature, humidity, wind speed, and weather conditions — beautifully displayed with dynamic icons and images.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## React Compiler
+✅ **Live Weather Data**
+- Fetches accurate, real-time weather data using the OpenWeatherMap API.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+✅ **Dynamic UI**
+- Shows weather icons and background images based on current conditions (hot, cold, or rainy).
 
-## Expanding the ESLint configuration
+✅ **Clean, Responsive Design**
+- Built with Material UI components for a modern and mobile-friendly interface.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+✅ **Loading State**
+- Displays a spinner and “Fetching weather...” message while retrieving data.
+
+✅ **Error Handling**
+- Handles invalid city names or API issues gracefully with friendly messages.
+
+✅ **Conditional Rendering**
+- The weather card appears only after a successful search (no hardcoded defaults).
+
+---
+
+## 🧩 Tech Stack
+
+| Category | Technology |
+|-----------|-------------|
+| Frontend | React (Vite) |
+| UI Library | Material UI (MUI) |
+| API | [OpenWeatherMap](https://openweathermap.org/api) |
+| Styling | CSS + MUI Styling System |
+| Icons | MUI Icons (Sunny 🌞, Snow ❄️, Thunderstorm ⛈️) |
+
+---
