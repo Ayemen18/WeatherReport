@@ -5,6 +5,9 @@ Search for any city to view live temperature, humidity, wind speed, and weather 
 
 ---
 
+## Live
+https://weather-report-three-blush.vercel.app/
+
 ## 🚀 Features
 
 ✅ **Live Weather Data**
